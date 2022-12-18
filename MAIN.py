@@ -88,13 +88,13 @@ def options():
         B3.changeColor(OPTIONS_MOUSE_POS)
         B3.update(SCREEN)
 
-        B4 = Button(image=None, pos=(200, 360), text_input="          W  -  TURRENT UP", font=get_font(30),
+        B4 = Button(image=None, pos=(200, 360), text_input="          W  -  TURRET UP", font=get_font(30),
                     base_color="White",
                     hovering_color="Green")
         B4.changeColor(OPTIONS_MOUSE_POS)
         B4.update(SCREEN)
 
-        B5 = Button(image=None, pos=(200, 400), text_input="                 s   -  TURRENT DOWN", font=get_font(30), base_color="White",
+        B5 = Button(image=None, pos=(200, 400), text_input="                 s   -  TURRET DOWN", font=get_font(30), base_color="White",
                     hovering_color="Green")
         B5.changeColor(OPTIONS_MOUSE_POS)
         B5.update(SCREEN)
@@ -128,12 +128,12 @@ def options():
         PB3.changeColor(OPTIONS_MOUSE_POS)
         PB3.update(SCREEN)
 
-        PB4 = Button(image=None, pos=(750, 350), text_input=" ARROW [UP]  -   TURRENT UP", font=get_font(30),
+        PB4 = Button(image=None, pos=(750, 350), text_input=" ARROW [UP]  -   TURRET UP", font=get_font(30),
                      base_color="White", hovering_color="Red")
         PB4.changeColor(OPTIONS_MOUSE_POS)
         PB4.update(SCREEN)
 
-        PB5 = Button(image=None, pos=(750, 390), text_input=" ARROW [DOWN]  -   TURRENT DOWN", font=get_font(30),
+        PB5 = Button(image=None, pos=(750, 390), text_input=" ARROW [DOWN] -  TURRET DOWN", font=get_font(30),
                      base_color="White", hovering_color="Red")
         PB5.changeColor(OPTIONS_MOUSE_POS)
         PB5.update(SCREEN)
